@@ -36,7 +36,7 @@ void main()
 				}break;
 				case '3':
 				{
-					Search_s(Ñountry);
+					Search_city(Ñountry);
 				}break;
 				case '4':
 				{

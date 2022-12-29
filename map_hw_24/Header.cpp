@@ -63,7 +63,7 @@ void Search_c(map<string, vector<string>>& Ño)
 
 }
 
-void Search_s(map<string, vector<string>>& Ño)
+void Search_city(map<string, vector<string>>& Ño)
 {
 
 	string s;
