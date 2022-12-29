@@ -9,14 +9,14 @@ void main()
 	bool key1 = 1;
 	map<string, vector<string>> Сountry;
 	string Cou[5] = { "Россия","Франция","Великробитания","Канада","Китай" };
-	Сountry_creat(Сountry);
+	Сountry_creat(Сountry,Cou);
 
 	do
 	{		
 		Show_h();
 		cout << "Enter: "; cin >> k;	
 		system("cls");
-		if (k<'0' || k>'3')
+		if (k<'0' || k>'5')
 		{
 			cout << "Ошибка, введены некорректные данные" << endl;
 		}
@@ -32,11 +32,19 @@ void main()
 				}break;
 				case '2':
 				{
-					Search_c(Сountry, Cou);
+					Search_c(Сountry);
 				}break;
 				case '3':
 				{
 					Search_s(Сountry);
+				}break;
+				case '4':
+				{
+					Add(Сountry);
+				}break;
+				case '5':
+				{
+					Del(Сountry);
 				}break;
 				case '0':
 				{
